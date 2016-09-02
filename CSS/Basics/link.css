@@ -1,0 +1,18 @@
+/* Link States  - Pseudo Selectors */
+
+a{
+	text-decoration: none; /* remove all decor */
+}
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color:green;
+}
+
+a:hover{
+	color:blue;
+	text-decoration: underline;
+}
