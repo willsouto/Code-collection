@@ -1,0 +1,31 @@
+/* Measurements
+
+Units
+
+% = percentage
+in = inches
+cm = centimeters
+mm = milimeters
+px = 1 pixel
+
+~~~~
+
+typographical units
+
+em = vertical size of the font
+ex = the "x-height" of the font - about half of em
+pt = 1 point = 1/72 inch
+pc = 1 pica
+
+~~~~
+
+color values
+
+name = name of a color
+rgb(n,n,n) = rgb decimal
+rgb(n%,n%,n%) = rgb percentage
+#rrggbb = rgb hexadecimal
+#rgb = shorthand for #rrggbb
+
+*/
+
