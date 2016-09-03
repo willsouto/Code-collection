@@ -1,0 +1,34 @@
+
+#content {
+    background-color: #f8f8f8;
+}
+/*  
+	content = selector
+    background-color = property
+    #f8f8f8 = value   
+*/
+
+
+
+div.sidebar > input{
+	color: #fff;
+}
+
+/*
+	div.sidebar > input = only affects child, not all descendant 
+*/
+
+
+div.sidebar p{
+	color: #000;
+}
+/*
+	div.sidebar p = only affects p descendant of div.sidebar
+*/
+
+input[type="text"]{
+	width: 175px;
+}
+/*
+	if <input type="text"> then affects
+*/
