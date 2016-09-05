@@ -1,0 +1,45 @@
+/*
+
+border: 10px none black;
+
+border-width: 1px 2px 3px 4px;
+border-style: none;
+border-color: black red blue green;
+
+
+border-top-width: 1px;
+border-right-width: 2px;
+border-bottom-width: 3px;
+border-left-width: 4px;
+
+
+border-radius: 10px; = rounded border
+
+box-shadow: 4px 5px 10px #999;
+4px = x distance
+5px = y distance
+10px = blur radius
+#999 = color
+
+
+*/
+
+
+#content h1 {
+    margin-bottom: 10px;
+
+}
+
+#content p {
+    padding-left: 5px;
+}
+
+.solid { border: 10px none black }
+.dotted { border: 5px dotted black }
+.dashed { border: 5px dashed black }
+.double { border: 10px double black }
+.groove { border: 10px groove black }
+.ridge { border: 10px ridge black }
+.inset { border: 5px inset black }
+.outset { border: 5px outset black }
+
