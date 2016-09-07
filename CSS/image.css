@@ -1,0 +1,29 @@
+/*
+sprite.png
+
+background: url(/img/sprite.png) 5px 30px;
+background-position: -390px -45px;
+
+
+
+body {
+    background-color: #eee;
+    background-image: url(bg.png);
+    background-repeat : repeat-y; /* repeat-y = vertical ~ repeat-x = horz ~ norepeat = no rep ~ repeat = all */
+    background-attachment: fixed; /* no scroll image */
+    /* short combo = background: #eee url(bg.png) repeat fixed; */
+    margin: 5px;
+    font-family: verdana, sans-serif;
+}
+
+
+#testImage{
+    border: 5px solid #339;
+    background-color: #66c;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left; /* wrap text */
+
+}
+
