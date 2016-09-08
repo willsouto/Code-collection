@@ -1,0 +1,62 @@
+/*
+
+z-index: -1; = layers
+
+transform: rotate(-5deg);
+transform: skew(5deg, 5deg);
+
+float: left;
+
+*/
+
+
+
+
+div#outer {
+        position: relative;
+        width: 750px;
+        height: 500px;
+        margin: 15px auto;
+        background-color: #369;
+        border: solid 1px black;
+    }
+
+    div#first {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #ccf;
+        float: left;
+        width: 220px;
+        padding: 15px;
+    }
+
+    div#second {
+        position: absolute;
+        top: 0;
+        left: 250px;
+        background-color: #fcc;
+        width: 220px;
+        padding: 15px;
+    }
+
+    div#third {
+        position: absolute;
+        top: 0;
+        left: 500px;
+        background-color: #cff;
+        width: 220px;
+        padding: 15px;
+    }
+
+    img#fixedImage {
+        position: fixed;
+        top: 15px;
+        left: 15px;
+    }
+
+   
+
+
+
+
