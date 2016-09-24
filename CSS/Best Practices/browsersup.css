@@ -1,0 +1,33 @@
+/*
+<head>
+    <title>
+        Browser Support
+    </title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="bw-browser.js"></script>
+    <script type="text/javascript">
+    <!--
+        if( browserInfo.OS == 'Windows' )
+            document.write('<link rel="stylesheet" type="text/css" href="windows.css" />');
+        if( browserInfo.browser == 'Internet Explorer' )
+            document.write('<link rel="stylesheet" type="text/css" href="ie.css" />');
+    // -->
+    </script>
+</head>
+
+<body>
+
+<div id="content">
+
+<script type="text/javascript">
+<!--
+    document.write(
+        '<p>You\'re using ' + browserInfo.browser +
+            ' version ' + browserInfo.version +
+            ' on ' + browserInfo.OS + '</p>'
+    );
+// -->
+</script>
+
+
+*/
