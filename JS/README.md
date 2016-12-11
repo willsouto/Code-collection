@@ -33,7 +33,7 @@ console.log(x);
 
 Array
 
-<script>
+
 	var arr1 = new Array("Red",10,20.3);
 	var arr2 = new Array("Red",10,20.3);
 	
@@ -83,4 +83,4 @@ console.log(arr1);
 
 
 
-</script>
+
